@@ -16,5 +16,15 @@ namespace SimpleRPG
         {
             InitializeComponent();
         }
+
+        private void Label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnTest_Click(object sender, EventArgs e)
+        {
+            lblGold.Text = "123";
+        }
     }
 }
