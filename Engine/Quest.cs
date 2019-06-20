@@ -23,6 +23,5 @@ namespace Engine
             RewardExperiencePoints = rewardExperiencePoints;
             RewardGold = rewardGold;
         }
-
     }
 }
