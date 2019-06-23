@@ -32,5 +32,10 @@ namespace SimpleRPG
             lblExperience.Text = _player.ExperiencePoints.ToString();
             lblLevel.Text = _player.Level.ToString();
         }
+
+        private void Label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }   
