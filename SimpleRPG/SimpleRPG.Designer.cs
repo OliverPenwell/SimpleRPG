@@ -44,7 +44,7 @@
             this.btnNorth = new System.Windows.Forms.Button();
             this.btnEast = new System.Windows.Forms.Button();
             this.btnSouth = new System.Windows.Forms.Button();
-            this.btnWrst = new System.Windows.Forms.Button();
+            this.btnWest = new System.Windows.Forms.Button();
             this.rtbLocation = new System.Windows.Forms.RichTextBox();
             this.rtbMessages = new System.Windows.Forms.RichTextBox();
             this.dgvInventory = new System.Windows.Forms.DataGridView();
@@ -129,7 +129,6 @@
             this.label5.Size = new System.Drawing.Size(70, 13);
             this.label5.TabIndex = 8;
             this.label5.Text = "Select Action";
-            this.label5.Click += new System.EventHandler(this.Label5_Click);
             // 
             // cboWeapons
             // 
@@ -192,14 +191,14 @@
             this.btnSouth.Text = "South";
             this.btnSouth.UseVisualStyleBackColor = true;
             // 
-            // btnWrst
+            // btnWest
             // 
-            this.btnWrst.Location = new System.Drawing.Point(412, 457);
-            this.btnWrst.Name = "btnWrst";
-            this.btnWrst.Size = new System.Drawing.Size(75, 23);
-            this.btnWrst.TabIndex = 16;
-            this.btnWrst.Text = "West";
-            this.btnWrst.UseVisualStyleBackColor = true;
+            this.btnWest.Location = new System.Drawing.Point(412, 457);
+            this.btnWest.Name = "btnWest";
+            this.btnWest.Size = new System.Drawing.Size(75, 23);
+            this.btnWest.TabIndex = 16;
+            this.btnWest.Text = "West";
+            this.btnWest.UseVisualStyleBackColor = true;
             // 
             // rtbLocation
             // 
@@ -223,6 +222,7 @@
             // 
             this.dgvInventory.AllowUserToAddRows = false;
             this.dgvInventory.AllowUserToDeleteRows = false;
+            this.dgvInventory.AllowUserToResizeRows = false;
             this.dgvInventory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvInventory.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgvInventory.Enabled = false;
@@ -238,6 +238,7 @@
             // 
             this.dgvQuests.AllowUserToAddRows = false;
             this.dgvQuests.AllowUserToDeleteRows = false;
+            this.dgvQuests.AllowUserToResizeRows = false;
             this.dgvQuests.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvQuests.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgvQuests.Enabled = false;
@@ -258,7 +259,7 @@
             this.Controls.Add(this.dgvInventory);
             this.Controls.Add(this.rtbMessages);
             this.Controls.Add(this.rtbLocation);
-            this.Controls.Add(this.btnWrst);
+            this.Controls.Add(this.btnWest);
             this.Controls.Add(this.btnSouth);
             this.Controls.Add(this.btnEast);
             this.Controls.Add(this.btnNorth);
@@ -302,7 +303,7 @@
         private System.Windows.Forms.Button btnNorth;
         private System.Windows.Forms.Button btnEast;
         private System.Windows.Forms.Button btnSouth;
-        private System.Windows.Forms.Button btnWrst;
+        private System.Windows.Forms.Button btnWest;
         private System.Windows.Forms.RichTextBox rtbLocation;
         private System.Windows.Forms.RichTextBox rtbMessages;
         private System.Windows.Forms.DataGridView dgvInventory;
